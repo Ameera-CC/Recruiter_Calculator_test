@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Recruiter Calculator</title>
+</head>
+<body class=" bg-secondary "> 
+ <header></header>
+ <main>
+    <section class="container bg-info  divCenter text-light">
+        <form action="" id="form_calc"  >
+            <div class="row">
+                <div class="col-sm-9 text-center p-4">
+                    <h1>Recruiter Calculator</h1>
+                </div>                
+            </div>
+            <div id="div_main" >
+                <div class="form-group row " >
+                    <label for="CurrentCTC" class="col-sm-3">Current CTC in (Amount) : </label>
+                    <div class="col-sm-6">
+                        <input type="tel" name="CurrentCTC" id="currentCtc" class="form-control" >
+                        <span class="required">this is mandatory *</span>
+                    </div>
+                </div>
+                <div class="form-group row " >
+                    <label for="ExpectedCTCAmt" class="col-sm-3">Expected CTC in (Amount) :  </label>
+                    <div class="buttonIn col-sm-6" >
+                        <input type="tel" name="ExpectedCTCAmt" id="expectedCtcAmnt" class="form-control border-right-0" >
+                        <button type="button" class="btnsearch btn border-left-0" id="btn_percent"><i class="fa fa-search"></i> </button>
+                    </div>
+                </div>
+                <div class="form-group row "  >
+                    <label for="ExpectedCTCPerc" class="col-sm-3">Expected Hike % : </label>
+                    <div class="buttonIn col-sm-6" >
+                        <input type="tel" name="ExpectedCTCPerc" id="expectedCtcPerc" class="form-control border-right-0" >
+                        <button type="button" class="btnsearch btn border-left-0" id="btn_amount"><i class="fa fa-search"></i> </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="btnCenter">
+                <button type="submit" id="btn_clear" class="btn btn-secondary">Clear</button>
+            </div>
+            
+        </form>
+
+    </section>
+
+ </main> 
+ <footer></footer>  
+ <script src="/js/jquery.min.js"></script>
+ <script src="/bootstrap-4.6.0/js/src/popover.js"></script>
+ <script src="/bootstrap-4.6.0/dist/js/bootstrap.min.js"></script>
+ <script src="/js/index.js"></script>
+</body>
+</html>

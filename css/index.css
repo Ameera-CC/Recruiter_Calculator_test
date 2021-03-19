@@ -1,0 +1,54 @@
+.divCenter{
+    margin: auto;
+    width:60%;
+    margin-top: 8%;
+    padding-left: 10%;
+}
+
+.btnCenter{
+  text-align: center;
+  width:60%;
+  padding-top:10px;
+  padding-left:  10%;
+  padding-bottom: 20px;
+}
+
+.required {
+    color: red;
+  }
+
+  .buttonIn { 
+    width: 300px; 
+    position: relative; 
+    
+} 
+*:not(.btnsearch){
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+
+}
+
+.btnsearch { 
+    position: absolute; 
+    top: 0; 
+    border-radius: 5px; 
+    right: 0px; 
+    z-index: 2; 
+    border: none; 
+    top: 2px; 
+    height: 30px; 
+    cursor: pointer; 
+    color: black; 
+    background-color: white; 
+    transform: translateX(2px); 
+} 
+/* input { 
+    margin: 0px; 
+    padding: 0px; 
+    width: 100%; 
+    outline: none; 
+    height: 30px; 
+    border-radius: 5px; 
+} 
+   */
