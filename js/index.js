@@ -5,15 +5,11 @@ currentctcAmount,
 expctdctcAmount,
 expctdctcPercent;
 $('#div_main div input').blur(function(){
-// var fieldData = {},
-// currentctcAmount,
-// expctdctcAmount,
-// expctdctcPercent;
 var value_res = $('#div_main').find('input')
  value_res.each(function(x,y){
     fieldData[y.id] = y.value;  
  })
-
+//console.log(fieldData)
    currentctcAmount = parseInt(fieldData.currentCtc);
    expctdctcAmount = parseInt(fieldData.expectedCtcAmnt);
    expctdctcPercent = parseInt(fieldData.expectedCtcPerc);
@@ -59,14 +55,6 @@ $("#btn_amount").on("click", function(){
 });
 
 
-
-// $("#btn_clear").on("click", function(){
-  
-//     $("#form_calc").reset();
-//     // $("div").css("display", "block")
-//     // $('input[name="ExpectedCTCPerc"]').val(expcted_CtcPercent_res);
-//     // $('input[name="ExpectedCTCAmt"]').val(expcted_CtcAmount_res);
-// });
 
 
 
