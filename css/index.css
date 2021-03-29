@@ -1,8 +1,9 @@
 .divCenter{
     margin: auto;
-    width:60%;
+    width:50%;
     margin-top: 8%;
     padding-left: 10%;
+   background-color: #9c6b8c;
 }
 
 .btnCenter{
@@ -52,3 +53,13 @@
     border-radius: 5px; 
 } 
    */
+
+   body,html{
+     height: 100%;
+   }
+   .bgImg{
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
